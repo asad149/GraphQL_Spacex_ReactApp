@@ -15,7 +15,7 @@ const LaunchProfile: React.FC<Props> = ({ data }) => {
 
   return (
     <div className={className}>
-      <h1>Launches Information</h1>
+      <h1>Launches Info </h1>
       <div className={`${className}__status`}>
         <span>Flight {data.launch.flight_number}: </span>
         {data.launch.launch_success ? (
